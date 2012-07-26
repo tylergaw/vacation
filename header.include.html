@@ -13,11 +13,5 @@
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="css/vacation.css">
     </head>
-    <body>
+    <body class="<!--#echo var='track' default='home'-->">
         <h1><a href="./">Bomb the Music Industry! - Vacation</a></h1>
-        <!--# if expr="$track" -->
-        <audio id="track" autoplay>
-            <source src="./audio/<!--#echo var='track'-->.ogg">
-            <source src="./audio/<!--#echo var='track'-->.mp3">
-        </audio>
-        <!--# endif -->
